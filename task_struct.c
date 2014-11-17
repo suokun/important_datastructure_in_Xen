@@ -10,13 +10,13 @@
  * modifying one set can't modify the other one by
  * mistake.
  */
-#define TASK_RUNNING            0
-#define TASK_INTERRUPTIBLE      1
-#define TASK_UNINTERRUPTIBLE    2
-#define __TASK_STOPPED          4
+#define TASK_RUNNING            0    //可运行
+#define TASK_INTERRUPTIBLE      1    //可中断的等待状态
+#define TASK_UNINTERRUPTIBLE    2    //不可中断的等待状态
+#define __TASK_STOPPED          4    //暂停
 #define __TASK_TRACED           8
 /* in tsk->exit_state */
-#define EXIT_ZOMBIE             16
+#define EXIT_ZOMBIE             16   //僵死
 #define EXIT_DEAD               32
 /* in tsk->state again */
 #define TASK_DEAD               64
