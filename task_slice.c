@@ -1,4 +1,4 @@
-include/xen/sched-if.h
+//this data structure is defined in include/xen/sched-if.h
 
 
 struct task_slice {
