@@ -1,4 +1,4 @@
-
+//this data structure is defined in xen/common/sched_credit.c
 
 
 /*
