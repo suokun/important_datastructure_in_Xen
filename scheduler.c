@@ -1,4 +1,4 @@
-
+//this data structure is defined in include/xen/sched-if.h
 
 struct scheduler {
     char *name;             /* full name for this scheduler      */
