@@ -19,5 +19,6 @@ struct csched_private {
     unsigned ratelimit_us;
     /* Period of master and tick in milliseconds */
     unsigned tslice_ms, tick_period_us, ticks_per_tslice;
+    /* in credit scheduler, tslice_ms = 30, tick_period_us = 10*1000, ticks_per_tslice = 3 */
     unsigned credits_per_tslice;
 };
