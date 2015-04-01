@@ -21,4 +21,5 @@ struct csched_private {
     unsigned tslice_ms, tick_period_us, ticks_per_tslice;
     /* in credit scheduler, tslice_ms = 30, tick_period_us = 10*1000, ticks_per_tslice = 3 */
     unsigned credits_per_tslice;
+    /* prv->credits_per_tslice = CSCHED_CREDITS_PER_MSEC * prv->tslice_ms,  credits_per_tslice = 10*30 */
 };
