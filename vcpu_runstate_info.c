@@ -1,3 +1,5 @@
+//include/public/vcpu.h
+
 /*
  * Initialise a VCPU. Each VCPU can be initialised only once. A
  * newly-initialised VCPU will not run until it is brought up by VCPUOP_up.
